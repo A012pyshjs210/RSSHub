@@ -1,14 +1,15 @@
-import cache from '@/utils/cache';
-import md5 from '@/utils/md5';
 import { load } from 'cheerio';
+
+import cache from '@/utils/cache';
 import got from '@/utils/got';
+import md5 from '@/utils/md5';
 import { parseDate } from '@/utils/parse-date';
 
 const dynamicTpye = { 0: '基本动态', 8: '酷图', 9: '评论', 10: '提问', 11: '回答', 12: '图文', 15: '二手', 17: '观点', 20: '交易动态' };
 
 const getRandomDEVICE_ID = () => {
     let id = [10, 6, 6, 6, 14];
-    id = id.map((i) => Math.random().toString(36).substring(2, i));
+    id = id.map((i) => Math.random().toString(36).slice(2, i));
     return id.join('-');
 };
 
