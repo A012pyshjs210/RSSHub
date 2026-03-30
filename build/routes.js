@@ -33391,13 +33391,16 @@ export default {
           }
         ],
         "name": "分类",
-        "maintainers": [],
+        "maintainers": [
+          "XinRoom"
+        ],
         "url": "ddosi.org/",
         "location": "category.ts",
         "module": () => import('@/routes/ddosi/category.ts')
       },
       "/": {
         "path": "/",
+        "example": "/ddosi",
         "radar": [
           {
             "source": [
@@ -33406,7 +33409,7 @@ export default {
             "target": ""
           }
         ],
-        "name": "Unknown",
+        "name": "首页",
         "maintainers": [
           "XinRoom"
         ],
