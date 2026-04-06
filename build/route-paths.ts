@@ -111,8 +111,8 @@ export type RoutePath =
   | `/academia/topic/:interest`
   | `/accessbriefing/:category{.+}?`
   | `/acfun/article/:categoryId/:sortType?/:timeRange?`
-  | `/acfun/bangumi/:id`
-  | `/acfun/user/video/:uid`
+  | `/acfun/bangumi/:id/:embed?`
+  | `/acfun/user/video/:uid/:embed?`
   | `/acg17/post/all`
   | `/acgvinyl/news`
   | `/acpaa/:id?/:name?`
@@ -467,6 +467,7 @@ export type RoutePath =
   | `/cas/sim/kyjz`
   | `/casssp/news/:category?`
   | `/cast/:column/:subColumn/:category?`
+  | `/castanet/:category?`
   | `/catti/news/:category`
   | `/cau/ele`
   | `/cau/yjs`
@@ -2205,6 +2206,7 @@ export type RoutePath =
   | `/peopo/topic/:topicId?`
   | `/perplexity/blog`
   | `/perplexity/changelog`
+  | `/peterwunder/achievements`
   | `/phoronix/:category?/:topic?`
   | `/pianyivps/`
   | `/pianyuan/index/:media?`
@@ -2833,6 +2835,7 @@ export type RoutePath =
   | `/tvb/news/:category?/:language?`
   | `/tver/series/:id`
   | `/tvtropes/featured/:category?`
+  | `/tw-nongmu/market`
   | `/twitch/live/:login`
   | `/twitch/schedule/:login`
   | `/twitch/video/:login/:filter?`

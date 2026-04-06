@@ -8802,6 +8802,27 @@
       }
     ]
   },
+  "castanet.net": {
+    "_name": "Castanet",
+    "www": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/news/:category/"
+        ],
+        "target": "/castanet/:category"
+      },
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/"
+        ],
+        "target": "/castanet/"
+      }
+    ]
+  },
   "catticenter.com": {
     "_name": "全国翻译专业资格水平考试 (CATTI)",
     "www": [
@@ -28177,6 +28198,31 @@
       }
     ]
   },
+  "kyodonews.net": {
+    "_name": "共同网",
+    "china": [
+      {
+        "title": "最新报道",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/news/:keyword",
+          "/"
+        ],
+        "target": "/kyodonews/china/:keyword?"
+      }
+    ],
+    "tchina": [
+      {
+        "title": "最新报道",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/news/:keyword",
+          "/"
+        ],
+        "target": "/kyodonews/tchina/:keyword?"
+      }
+    ]
+  },
   "laimanhua8.com": {
     "_name": "来漫画",
     "www": [
@@ -38120,6 +38166,19 @@
       }
     ]
   },
+  "peterwunder.de": {
+    "_name": "Peter Wunder",
+    "projects": [
+      {
+        "title": "New Badges",
+        "docs": "https://docs.rsshub.app/routes/other",
+        "source": [
+          "/achievements"
+        ],
+        "target": "/peterwunder/achievements"
+      }
+    ]
+  },
   "phoronix.com": {
     "_name": "Phoronix",
     ".": [
@@ -46177,6 +46236,20 @@
       }
     ]
   },
+  "tw-nongmu.com": {
+    "_name": "通威农业发展",
+    "www": [
+      {
+        "title": "鱼价行情",
+        "docs": "https://docs.rsshub.app/routes/other",
+        "source": [
+          "/market.html",
+          "/"
+        ],
+        "target": "/tw-nongmu/market"
+      }
+    ]
+  },
   "twitch.tv": {
     "_name": "Twitch",
     "www": [
@@ -47727,7 +47800,7 @@
     "mp": [
       {
         "title": "Unknown",
-        "docs": "https://docs.rsshub.app/routes/programming",
+        "docs": "https://docs.rsshub.app/routes/new-media",
         "source": [
           "/",
           "/article/category/:id"

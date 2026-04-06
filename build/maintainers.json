@@ -331,13 +331,13 @@
   "/accessbriefing/:category{.+}?": [
     "nczitzk"
   ],
-  "/acfun/bangumi/:id": [
+  "/acfun/bangumi/:id/:embed?": [
     "xyqfer"
   ],
   "/acfun/article/:categoryId/:sortType?/:timeRange?": [
     "TonyRL"
   ],
-  "/acfun/user/video/:uid": [
+  "/acfun/user/video/:uid/:embed?": [
     "wdssmq"
   ],
   "/acg17/post/all": [
@@ -1415,6 +1415,9 @@
   ],
   "/cast/:column/:subColumn/:category?": [
     "KarasuShin",
+    "TonyRL"
+  ],
+  "/castanet/:category?": [
     "TonyRL"
   ],
   "/catti/news/:category": [
@@ -6760,6 +6763,9 @@
   "/perplexity/changelog": [
     "xbot"
   ],
+  "/peterwunder/achievements": [
+    "LinxHex"
+  ],
   "/phoronix/:category?/:topic?": [
     "oppliate",
     "Rongronggg9"
@@ -8721,6 +8727,9 @@
   "/tvtropes/featured/:category?": [
     "nczitzk"
   ],
+  "/tw-nongmu/market": [
+    "TonyRL"
+  ],
   "/twitch/live/:login": [
     "hoilc"
   ],
@@ -9128,6 +9137,9 @@
   "/webcatalog/changelog": [
     "Tsuyumi25"
   ],
+  "/wechat/wechat2rss/:id": [
+    "TonyRL"
+  ],
   "/wechat/announce": [
     "xyqfer"
   ],
@@ -9156,9 +9168,6 @@
   ],
   "/wechat/uread/:userid": [
     "kt286"
-  ],
-  "/wechat/wechat2rss/:id": [
-    "TonyRL"
   ],
   "/weekendhk/": [
     "TonyRL"
