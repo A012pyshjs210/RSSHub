@@ -110415,8 +110415,8 @@
         },
         "features": {
           "requireConfig": false,
-          "requirePuppeteer": true,
-          "antiCrawler": false,
+          "requirePuppeteer": false,
+          "antiCrawler": true,
           "supportBT": false,
           "supportPodcast": false,
           "supportScihub": false
